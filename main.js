@@ -10,23 +10,26 @@ import React, {
 var Sound = require('react-native-sound');
 
 class MainView extends Component {
+  constructor() {
+    super();
+    this.s = new Sound('Drum1.mp3', Sound.MAIN_BUNDLE, (e) => {
+      if (e) {
+        console.log('error', e);
+      } else {
+        console.log('duration', this.s.getDuration());
+      }
+    });
+  }
   render() {
     return <View style={styles.container}>
-             <TouchableOpacity onPress={this.playSound}>
+             <TouchableOpacity onPress={this.playSound.bind(this)}>
                <Text style={styles.button}>play</Text>
              </TouchableOpacity>
            </View>;
   }
 
   playSound() {
-    var s = new Sound('advertising.mp3', Sound.MAIN_BUNDLE, (e) => {
-      if (e) {
-        console.log('error', e);
-      } else {
-        console.log('duration', s.getDuration());
-        s.play();
-      }
-    });
+    this.s.play()
   }
 }
 

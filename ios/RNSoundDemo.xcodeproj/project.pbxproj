@@ -24,6 +24,14 @@
 		19758F7B1CB1989500D45327 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19758F631CB197D800D45327 /* libRNSound.a */; };
 		19758F871CB1994E00D45327 /* advertising.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19758F861CB1994E00D45327 /* advertising.mp3 */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		D45F4B931CB951B300ECE352 /* MIX_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B8B1CB951B300ECE352 /* MIX_8.mp3 */; };
+		D45F4B941CB951B300ECE352 /* MIX_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B8C1CB951B300ECE352 /* MIX_4.mp3 */; };
+		D45F4B951CB951B300ECE352 /* MIX_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B8D1CB951B300ECE352 /* MIX_5.mp3 */; };
+		D45F4B961CB951B300ECE352 /* MIX_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B8E1CB951B300ECE352 /* MIX_6.mp3 */; };
+		D45F4B971CB951B300ECE352 /* MIX_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B8F1CB951B300ECE352 /* MIX_7.mp3 */; };
+		D45F4B981CB951B300ECE352 /* MIX_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B901CB951B300ECE352 /* MIX_2.mp3 */; };
+		D45F4B991CB951B300ECE352 /* MIX_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B911CB951B300ECE352 /* MIX_3.mp3 */; };
+		D45F4B9A1CB951B300ECE352 /* MIX_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B921CB951B300ECE352 /* MIX_1.mp3 */; };
 		D4B294951CB754CF00753CBE /* Drum1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4B294941CB754CF00753CBE /* Drum1.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +146,14 @@
 		19758F861CB1994E00D45327 /* advertising.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = advertising.mp3; path = ../advertising.mp3; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		D45F4B8B1CB951B300ECE352 /* MIX_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_8.mp3; sourceTree = "<group>"; };
+		D45F4B8C1CB951B300ECE352 /* MIX_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_4.mp3; sourceTree = "<group>"; };
+		D45F4B8D1CB951B300ECE352 /* MIX_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_5.mp3; sourceTree = "<group>"; };
+		D45F4B8E1CB951B300ECE352 /* MIX_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_6.mp3; sourceTree = "<group>"; };
+		D45F4B8F1CB951B300ECE352 /* MIX_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_7.mp3; sourceTree = "<group>"; };
+		D45F4B901CB951B300ECE352 /* MIX_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_2.mp3; sourceTree = "<group>"; };
+		D45F4B911CB951B300ECE352 /* MIX_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_3.mp3; sourceTree = "<group>"; };
+		D45F4B921CB951B300ECE352 /* MIX_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_1.mp3; sourceTree = "<group>"; };
 		D4B294941CB754CF00753CBE /* Drum1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drum1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,6 +332,14 @@
 				00E356EF1AD99517003FC87E /* RNSoundDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				D4B294941CB754CF00753CBE /* Drum1.mp3 */,
+				D45F4B8B1CB951B300ECE352 /* MIX_8.mp3 */,
+				D45F4B8C1CB951B300ECE352 /* MIX_4.mp3 */,
+				D45F4B8D1CB951B300ECE352 /* MIX_5.mp3 */,
+				D45F4B8E1CB951B300ECE352 /* MIX_6.mp3 */,
+				D45F4B8F1CB951B300ECE352 /* MIX_7.mp3 */,
+				D45F4B901CB951B300ECE352 /* MIX_2.mp3 */,
+				D45F4B911CB951B300ECE352 /* MIX_3.mp3 */,
+				D45F4B921CB951B300ECE352 /* MIX_1.mp3 */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -542,9 +566,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B294951CB754CF00753CBE /* Drum1.mp3 in Resources */,
+				D45F4B9A1CB951B300ECE352 /* MIX_1.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D45F4B961CB951B300ECE352 /* MIX_6.mp3 in Resources */,
+				D45F4B991CB951B300ECE352 /* MIX_3.mp3 in Resources */,
+				D45F4B951CB951B300ECE352 /* MIX_5.mp3 in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				19758F871CB1994E00D45327 /* advertising.mp3 in Resources */,
+				D45F4B981CB951B300ECE352 /* MIX_2.mp3 in Resources */,
+				D45F4B941CB951B300ECE352 /* MIX_4.mp3 in Resources */,
+				D45F4B971CB951B300ECE352 /* MIX_7.mp3 in Resources */,
+				D45F4B931CB951B300ECE352 /* MIX_8.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

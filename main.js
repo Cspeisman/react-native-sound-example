@@ -1,9 +1,9 @@
 'use strict';
 
-import Swiper from 'react-native-swiper'
+import Swiper from 'react-native-swiper';
 import React, {Component, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Sound from 'react-native-sound';
-var Orientation = require('react-native-orientation');
+import Orientation from 'react-native-orientation';
 
 export default class MainView extends Component {
   constructor() {

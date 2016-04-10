@@ -3,12 +3,11 @@
 import Swiper from 'react-native-swiper'
 import React, {Component, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Sound from 'react-native-sound';
+var Orientation = require('react-native-orientation');
 
-
-class MainView extends Component {
+export default class MainView extends Component {
   constructor() {
     super();
-
     // creates an array for sound objects
     const files = new Array(8).fill(undefined).map((value, index) => {
       return new Sound(`MIX_${index + 1}.mp3`, Sound.MAIN_BUNDLE, (e) => {
@@ -17,6 +16,11 @@ class MainView extends Component {
     });
 
     this.state = {files: files}
+  }
+
+
+  componentDidMounut() {
+    Orientation.lockToLandscape()
   }
 
 
@@ -37,6 +41,7 @@ class MainView extends Component {
       </Swiper>);
   }
 
+
   playSound(index) {
     // creates new date object
     const date = new Date();
@@ -53,7 +58,8 @@ class MainView extends Component {
   }
 }
 
-var styles = StyleSheet.create({
+
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -66,5 +72,3 @@ var styles = StyleSheet.create({
     margin: 10,
   },
 });
-
-export default MainView;

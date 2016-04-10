@@ -32,6 +32,7 @@
 		D45F4B981CB951B300ECE352 /* MIX_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B901CB951B300ECE352 /* MIX_2.mp3 */; };
 		D45F4B991CB951B300ECE352 /* MIX_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B911CB951B300ECE352 /* MIX_3.mp3 */; };
 		D45F4B9A1CB951B300ECE352 /* MIX_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B921CB951B300ECE352 /* MIX_1.mp3 */; };
+		D46B54041CBAB63E00E8D3D9 /* Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B54031CBAB63E00E8D3D9 /* Orientation.m */; };
 		D4B294951CB754CF00753CBE /* Drum1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4B294941CB754CF00753CBE /* Drum1.mp3 */; };
 		D4B49D391CB9D26100E1103D /* RCTRootView.h in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B49D381CB9D26100E1103D /* RCTRootView.h */; };
 /* End PBXBuildFile section */
@@ -155,6 +156,8 @@
 		D45F4B901CB951B300ECE352 /* MIX_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_2.mp3; sourceTree = "<group>"; };
 		D45F4B911CB951B300ECE352 /* MIX_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_3.mp3; sourceTree = "<group>"; };
 		D45F4B921CB951B300ECE352 /* MIX_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_1.mp3; sourceTree = "<group>"; };
+		D46B54021CBAB63E00E8D3D9 /* Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Orientation.h; path = "../node_modules/react-native-orientation/RCTOrientation/Orientation.h"; sourceTree = "<group>"; };
+		D46B54031CBAB63E00E8D3D9 /* Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Orientation.m; path = "../node_modules/react-native-orientation/RCTOrientation/Orientation.m"; sourceTree = "<group>"; };
 		D4B294941CB754CF00753CBE /* Drum1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drum1.mp3; sourceTree = "<group>"; };
 		D4B49D361CB9D22D00E1103D /* RCTRootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTRootView.m; path = "../node_modules/react-native/React/Base/RCTRootView.m"; sourceTree = "<group>"; };
 		D4B49D381CB9D26100E1103D /* RCTRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootView.h; path = "../node_modules/react-native/React/Base/RCTRootView.h"; sourceTree = "<group>"; };
@@ -331,6 +334,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D46B54021CBAB63E00E8D3D9 /* Orientation.h */,
+				D46B54031CBAB63E00E8D3D9 /* Orientation.m */,
 				D4B49D381CB9D26100E1103D /* RCTRootView.h */,
 				D4B49D361CB9D22D00E1103D /* RCTRootView.m */,
 				13B07FAE1A68108700A75B9A /* RNSoundDemo */,
@@ -620,6 +625,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				D46B54041CBAB63E00E8D3D9 /* Orientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

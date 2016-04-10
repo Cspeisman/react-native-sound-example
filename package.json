@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/zmxv/react-native-sound-demo.git"
   },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
   "keywords": [
     "react-native-sound"
   ],
@@ -14,6 +17,7 @@
   "dependencies": {
     "react": "^0.14.8",
     "react-native": "^0.22.2",
-    "react-native-sound": "^0.8.0"
+    "react-native-sound": "^0.8.0",
+    "react-native-swiper": "^1.4.3"
   }
 }

@@ -33,6 +33,7 @@
 		D45F4B991CB951B300ECE352 /* MIX_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B911CB951B300ECE352 /* MIX_3.mp3 */; };
 		D45F4B9A1CB951B300ECE352 /* MIX_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D45F4B921CB951B300ECE352 /* MIX_1.mp3 */; };
 		D4B294951CB754CF00753CBE /* Drum1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4B294941CB754CF00753CBE /* Drum1.mp3 */; };
+		D4B49D391CB9D26100E1103D /* RCTRootView.h in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B49D381CB9D26100E1103D /* RCTRootView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,8 @@
 		D45F4B911CB951B300ECE352 /* MIX_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_3.mp3; sourceTree = "<group>"; };
 		D45F4B921CB951B300ECE352 /* MIX_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MIX_1.mp3; sourceTree = "<group>"; };
 		D4B294941CB754CF00753CBE /* Drum1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drum1.mp3; sourceTree = "<group>"; };
+		D4B49D361CB9D22D00E1103D /* RCTRootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTRootView.m; path = "../node_modules/react-native/React/Base/RCTRootView.m"; sourceTree = "<group>"; };
+		D4B49D381CB9D26100E1103D /* RCTRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootView.h; path = "../node_modules/react-native/React/Base/RCTRootView.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B49D391CB9D26100E1103D /* RCTRootView.h in Frameworks */,
 				19758F7B1CB1989500D45327 /* libRNSound.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -327,6 +331,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D4B49D381CB9D26100E1103D /* RCTRootView.h */,
+				D4B49D361CB9D22D00E1103D /* RCTRootView.m */,
 				13B07FAE1A68108700A75B9A /* RNSoundDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNSoundDemoTests */,

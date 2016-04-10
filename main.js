@@ -1,13 +1,9 @@
 'use strict';
 
-import React, {
-  Component,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View
-} from 'react-native';
-var Sound = require('react-native-sound');
+import Swiper from 'react-native-swiper'
+import React, {Component, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import Sound from 'react-native-sound';
+
 
 class MainView extends Component {
   constructor() {
@@ -27,16 +23,18 @@ class MainView extends Component {
   render() {
     const playSliders = this.state.files.map((value, index) => {
       return (
-        <TouchableOpacity key={index} onPress={this.playSound.bind(this, index)}>
-          <Text style={styles.button}>play</Text>
-        </TouchableOpacity>
-      );
+          <View style={styles.container} key={index}>
+            <TouchableOpacity onPress={this.playSound.bind(this, index)}>
+              <Text style={styles.button}>play</Text>
+            </TouchableOpacity>
+          </View>
+        );
     });
 
     return (
-      <View style={styles.container}>
+      <Swiper showsButtons={true} showsPagination={false}>
         {playSliders}
-      </View>);
+      </Swiper>);
   }
 
   playSound(index) {
@@ -58,7 +56,6 @@ class MainView extends Component {
 var styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
   },
